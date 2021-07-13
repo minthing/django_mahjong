@@ -8,3 +8,6 @@
 - 가상환경 실행 : `source myvenv/bin/activate`
 - 데이터 베이스는 sqlite3로 미리 설정 되어 있음 -> 데이터 베이스 설치 : `python manage.py migrate`
 - 포트 변경 매번 수동으로 해줘야 하는듯 `python manage.py runserver 8080`
+
+##### 210712 (월)
+- 앱 이름으로 main 같은 흔한 이름 썼다가 `ModuleNotFoundError` 에러만남...
